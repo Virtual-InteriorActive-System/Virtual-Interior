@@ -18,6 +18,7 @@
 
     <uses-feature android:glEsVersion="0x00020000" />
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature
@@ -33,11 +34,13 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
+        android:allowBackup="true"
         android:banner="@drawable/app_banner"
         android:icon="@mipmap/app_icon"
         android:isGame="true"
         android:label="@string/app_name"
-        android:theme="@style/UnityThemeSelector" >
+        android:supportsRtl="true"
+        android:theme="@style/VrActivityTheme" >
         <activity
             android:name="com.unity3d.player.UnityPlayerActivity"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
@@ -50,6 +53,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+                <category android:name="com.google.intent.category.CARDBOARD" />
             </intent-filter>
 
             <meta-data
@@ -58,8 +62,11 @@
         </activity>
 
         <meta-data
+            android:name="unityplayer.SkipPermissionsDialog"
+            android:value="true" />
+        <meta-data
             android:name="unity.build-id"
-            android:value="c4d66a6e-f112-43b7-8a01-022bef898190" />
+            android:value="9945a2f9-db11-4dc5-9f96-9970d618ece5" />
         <meta-data
             android:name="unity.splash-mode"
             android:value="0" />
@@ -68,7 +75,30 @@
             android:value="False" />
         <meta-data
             android:name="com.samsung.android.vr.application.mode"
-            android:value="vr_only" />
+            android:value="vr_only" /> <!-- For enableVrMode use the value vs. the string so Unity can build it. -->
+        <activity
+            android:name="com.google.gvr.keyboardsupport.TransitionVRActivity"
+            android:configChanges="density|keyboardHidden|navigation|orientation|screenSize|uiMode"
+            android:enableVrMode="com.google.vr.vrcore/com.google.vr.vrcore.common.VrCoreListenerService"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:resizeableActivity="false" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="com.google.intent.category.DAYDREAM" />
+            </intent-filter>
+        </activity> <!-- For enableVrMode use the value vs. the string so Unity can build it. -->
+        <activity
+            android:name="com.google.gvr.permissionsupport.TransitionVRActivity"
+            android:configChanges="density|keyboardHidden|navigation|orientation|screenSize|uiMode"
+            android:enableVrMode="com.google.vr.vrcore/com.google.vr.vrcore.common.VrCoreListenerService"
+            android:exported="false"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="com.google.intent.category.DAYDREAM" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

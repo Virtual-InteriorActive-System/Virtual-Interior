@@ -8,6 +8,6 @@ package com.oculus.Integration;
 
 public final class R {
     public static final class string {
-        public static final int lib_name = 0x7f030001;
+        public static final int lib_name = 0x7f070011;
     }
 }

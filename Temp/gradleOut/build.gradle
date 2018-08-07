@@ -24,6 +24,11 @@ apply plugin: 'com.android.application'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation(name: 'OVRPlugin', ext:'aar')
+    implementation(name: 'gvr-keyboard', ext:'aar')
+    implementation(name: 'gvr-keyboardsupport-release', ext:'aar')
+    implementation(name: 'gvr-permissionsupport-release', ext:'aar')
+    implementation(name: 'gvr', ext:'aar')
+    implementation(name: 'unitygvr', ext:'aar')
 }
 
 android {

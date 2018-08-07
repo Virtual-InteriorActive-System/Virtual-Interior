@@ -4,6 +4,25 @@
             "outputFile": "/Users/lind/Virtual-Interior/Temp/gradleOut/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
+                    "source": "/Users/lind/.gradle/caches/transforms-1/files-1.1/gvr.aar/a583d9cf6c887b826afe99856a6532ba/res/values-v21/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "147",
+                        "endLines": "5",
+                        "endColumns": "8",
+                        "endOffsets": "237"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "159",
+                        "endLines": "5",
+                        "endColumns": "8",
+                        "endOffsets": "249"
+                    }
+                },
+                {
                     "source": "/Users/lind/Virtual-Interior/Temp/gradleOut/src/main/res/values-v21/styles.xml",
                     "from": {
                         "startLines": "2",
