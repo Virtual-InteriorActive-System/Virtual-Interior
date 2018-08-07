@@ -2,7 +2,7 @@ Android
 PlayerPath?
 /Users/lind/Virtual-Interior/virtualDarsh.apk
 SceneListBegin?
-Assets/Oculus/VR/Scenes/UI.unity
+Assets/VirtualInteriorDemo.unity
 SceneListEnd?
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 c5d466bec0f77b2e519c677e4e85de44 Assembly-CSharp.dll:.GvrDropdown
