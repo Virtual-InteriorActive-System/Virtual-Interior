@@ -9,9 +9,8 @@
 sysinfo.txt
 *.stackdump
 /Assets/AssetStoreTools*
-*.apk
-*.unitypackage
- 
+
+
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
@@ -21,6 +20,7 @@ sysinfo.txt
 /*.csproj
 /*.pidb
 *.pidb.meta
+*.pdb.meta
 /*.suo
 /*.sln*
 /*.user
@@ -29,11 +29,20 @@ sysinfo.txt
 .consulo/
 /*.tmp
 /*.svd
- 
+
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.unitypackage
+
 # ============ #
 # OS generated #
 # ============ #
 .DS_Store*
+.AppleDouble
+.LSOverride
 ._*
 .Spotlight-V100
 .Trashes
@@ -43,3 +52,19 @@ ehthumbs.db
 [Dd]esktop.ini
 Corridor/Library/ShaderCache/
 Corridor/Library/metadata/
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
