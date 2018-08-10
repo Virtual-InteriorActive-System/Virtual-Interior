@@ -240,3 +240,6 @@ f46eb1797fb520e80d5d530f879a2187 Assembly-CSharp.dll:GoogleVR.VideoDemo.MenuHand
 2d1ef5186ac8f5ee44b3e43d9ff420bb Assembly-CSharp.dll:GoogleVR.HelloVR.HelloVRManager
 e241599c091a039de89f5e0a1c125183 Assembly-CSharp.dll:.GvrControllerReticleVisual
 5c887c78dd8476e1e5d5e0f9feb1e5e7 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
+09e1c81ebb1aa80a48fc478fe9bd9db1 Assembly-CSharp.dll:.hackathon
+2cea16a111b62c10255dca50012cfbcb Assembly-CSharp.dll:.AudioManager
+f978187a0d57f5e98f271da305e51315 Assembly-CSharp.dll:.Sound

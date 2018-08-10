@@ -273,6 +273,10 @@ ModelImporter:
     100534: relaunch3:relauncedagain:relaunchedScene:car_dashboard:polySurface17
     100536: relaunch3:relauncedagain:relaunchedScene:car_dashboard:polySurface6
     100538: relaunch3:relauncedagain:relaunchedScene:car_dashboard:transform9
+    100540: pCube5
+    100542: pPlane6
+    100544: relaunch3:relauncedagain:pTorus1
+    100546: typeMesh1
     400000: //RootNode
     400002: polySurface10
     400004: polySurface11
@@ -543,8 +547,15 @@ ModelImporter:
     400534: relaunch3:relauncedagain:relaunchedScene:car_dashboard:polySurface17
     400536: relaunch3:relauncedagain:relaunchedScene:car_dashboard:polySurface6
     400538: relaunch3:relauncedagain:relaunchedScene:car_dashboard:transform9
+    400540: pCube5
+    400542: pPlane6
+    400544: relaunch3:relauncedagain:pTorus1
+    400546: typeMesh1
     2100000: lambert1
     2100002: lambert6
+    2100004: lambert9
+    2100006: lambert8
+    2100008: typeBlinn1
     2300000: polySurface11
     2300002: polySurface12
     2300004: polySurface14
@@ -661,6 +672,10 @@ ModelImporter:
     2300226: pPlane4
     2300228: pPlane5
     2300230: relaunch3:relauncedagain:relaunchedScene:car_dashboard:polySurface17
+    2300232: pCube5
+    2300234: pPlane6
+    2300236: relaunch3:relauncedagain:pTorus1
+    2300238: typeMesh1
     3300000: polySurface11
     3300002: polySurface12
     3300004: polySurface14
@@ -777,6 +792,10 @@ ModelImporter:
     3300226: pPlane4
     3300228: pPlane5
     3300230: relaunch3:relauncedagain:relaunchedScene:car_dashboard:polySurface17
+    3300232: pCube5
+    3300234: pPlane6
+    3300236: relaunch3:relauncedagain:pTorus1
+    3300238: typeMesh1
     4300000: relaunchedScene:car_dashboard:pPlane1
     4300002: relaunchedScene:car_dashboard:pPlane2
     4300004: relaunchedScene:car_dashboard:pPlane4
@@ -893,6 +912,10 @@ ModelImporter:
     4300226: pPlane4
     4300228: pPlane5
     4300230: polySurface5
+    4300232: relaunch3:relauncedagain:pTorus1
+    4300234: pCube5
+    4300236: pPlane6
+    4300238: typeMesh1
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
